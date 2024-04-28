@@ -57,6 +57,7 @@ app.post('/play',(req,res)=>
 app.get('/oops',(req,res)=>
 { 
   res.render('oops',{score:score})
+  score=0
  
 })
 app.get('/play',async(req,res)=>
